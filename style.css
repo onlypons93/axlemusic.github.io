@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0d0d0d;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: black;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+}
+
+.video-container iframe {
+    width: 80%;
+    height: 500px;
+    border-radius: 12px;
+}
+
+.gallery {
+    padding: 40px;
+}
+
+.videos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.card iframe {
+    width: 400px;
+    height: 225px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
